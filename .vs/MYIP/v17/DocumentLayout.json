@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\controllers\\myipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:controllers\\myipcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\client\\ipapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:client\\ipapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\client\\ipapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:client\\ipapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\client\\openweathermapclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:client\\openweathermapclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|c:\\users\\francis\\source\\repos\\myip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37D5BCC9-2B71-4463-9730-2055B406AF09}|MYIP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:51:59.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T15:12:16.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpenWeatherMapClient.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\OpenWeatherMapClient.cs",
+              "RelativeDocumentMoniker": "Client\\OpenWeatherMapClient.cs",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\OpenWeatherMapClient.cs",
+              "RelativeToolTip": "Client\\OpenWeatherMapClient.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:45:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IpApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\IpApiResponse.cs",
+              "RelativeDocumentMoniker": "Client\\IpApiResponse.cs",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\IpApiResponse.cs",
+              "RelativeToolTip": "Client\\IpApiResponse.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:16:01.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IpApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\IpApiClient.cs",
+              "RelativeDocumentMoniker": "Client\\IpApiClient.cs",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Client\\IpApiClient.cs",
+              "RelativeToolTip": "Client\\IpApiClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:15:59.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyIpController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Controllers\\MyIpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MyIpController.cs",
+              "ToolTip": "C:\\Users\\FRANCIS\\source\\repos\\MYIP\\Controllers\\MyIpController.cs",
+              "RelativeToolTip": "Controllers\\MyIpController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:15:20.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

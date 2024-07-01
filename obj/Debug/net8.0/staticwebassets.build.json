@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "KBsBeHeTOpxTImb8sxYK64kAAkg1woIzeiGNgau1lEE=",
+  "Source": "MYIP",
+  "BasePath": "_content/MYIP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MYIP\\wwwroot",
+      "Source": "MYIP",
+      "ContentRoot": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\wwwroot\\",
+      "BasePath": "_content/MYIP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\wwwroot\\index.html",
+      "SourceId": "MYIP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\wwwroot\\",
+      "BasePath": "_content/MYIP",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

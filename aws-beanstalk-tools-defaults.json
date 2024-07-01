@@ -1,0 +1,19 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : true,
+    "application"    : "Hng-stage1",
+    "environment"    : "Hng-stage1-prod",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.7.3 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "hng-stage1-prod",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "ATH_webapp",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "proxy-server"         : "nginx"
+}
