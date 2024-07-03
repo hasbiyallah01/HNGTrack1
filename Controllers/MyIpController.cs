@@ -1,41 +1,59 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MYIP.Client;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
-namespace MYIP.Controllers;
-
-[ApiController]
-[Route("api/myip")]
-public class MyIpController(IpApiClient ipApiClient) : ControllerBase
+namespace MYIP.Controllers
 {
-    private readonly IpApiClient _ipApiClient = ipApiClient;
-
-    [HttpGet]
-    public async Task<ActionResult> Get(CancellationToken ct)
+    [ApiController]
+    [Route("api/myip")]
+    public class MyIpController : ControllerBase
     {
-        try
+        private readonly IpApiClient _ipApiClient;
+        private readonly OpenWeatherMapClient _weatherClient;
+
+        public MyIpController(IpApiClient ipApiClient, OpenWeatherMapClient weatherClient)
         {
-            var ipAddress = HttpContext.GetServerVariable("HTTP_X_FORWARDED_FOR") ?? HttpContext.Connection.RemoteIpAddress?.ToString();
-            var ipAddressWithoutPort = ipAddress?.Split(':')[0];
-
-            var ipApiResponse = await _ipApiClient.Get(ipAddressWithoutPort, ct);
-
-            var response = new
-            {
-                IpAddress = ipAddressWithoutPort,
-                Country = ipApiResponse?.country,
-                Region = ipApiResponse?.regionName,
-                City = ipApiResponse?.city,
-                //District = ipApiResponse?.district,
-                //PostCode = ipApiResponse?.zip,
-                //Longitude = ipApiResponse?.lon.GetValueOrDefault(),
-                //Latitude = ipApiResponse?.lat.GetValueOrDefault(),
-            };
-
-            return Ok(response);
+            _ipApiClient = ipApiClient;
+            _weatherClient = weatherClient;
         }
-        catch (Exception ex)
+
+        [HttpGet("hello")]
+        public async Task<ActionResult> GetHello([FromQuery] string visitor_name, CancellationToken ct)
         {
-            return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            try
+            {
+
+                var ipAddress = HttpContext.Request.Headers["X-Forwarded-For"].FirstOrDefault() ?? HttpContext.Connection.RemoteIpAddress?.ToString();
+                var ipAddressWithoutPort = ipAddress?.Split(':')[0];
+
+                var ipApiResponse = await _ipApiClient.Get(ipAddressWithoutPort, ct);
+                var city = ipApiResponse?.city;
+
+                if (string.IsNullOrEmpty(city))
+                {
+                    return NotFound("City not found for the given IP address.");
+                }
+
+                var weatherResponse = await _weatherClient.GetWeatherAsync(city, ct);
+                var temperature = weatherResponse.Main.Temp;
+
+                var response = new
+                {
+                    client_ip = ipAddressWithoutPort,
+                    location = city,
+                    greeting = $"Hello, {visitor_name}!, the temperature is {temperature} degrees Celsius in {city}"
+                };
+
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
         }
     }
 }
+

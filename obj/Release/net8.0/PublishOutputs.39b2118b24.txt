@@ -1,0 +1,11 @@
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\MYIP.exe
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\MYIP.dll
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\MYIP.deps.json
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\MYIP.runtimeconfig.json
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\MYIP.pdb
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\HNG-stage1\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

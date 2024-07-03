@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\MYIP.csproj": {}
+    "C:\\Users\\HP\\HNG-stage1\\MYIP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\MYIP.csproj": {
+    "C:\\Users\\HP\\HNG-stage1\\MYIP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\MYIP.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\HNG-stage1\\MYIP.csproj",
         "projectName": "MYIP",
-        "projectPath": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\MYIP.csproj",
-        "packagesPath": "C:\\Users\\FRANCIS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FRANCIS\\Source\\Repos\\MYIP\\obj\\",
+        "projectPath": "C:\\Users\\HP\\HNG-stage1\\MYIP.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\HNG-stage1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\FRANCIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,20 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-              "version": "[8.0.6, 8.0.6]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[8.0.6, 8.0.6]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-              "version": "[8.0.6, 8.0.6]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,12 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
