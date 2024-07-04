@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MYIP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e173deef0c755725c1414117b198c37f60d42a42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd1ef1931d00fa41b22d7f7b072fb782c4ec851d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MYIP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MYIP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

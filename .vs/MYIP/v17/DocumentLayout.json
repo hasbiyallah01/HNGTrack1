@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Controllers\\MyIpController.cs",
               "ToolTip": "C:\\Users\\HP\\HNG-stage1\\Controllers\\MyIpController.cs",
               "RelativeToolTip": "Controllers\\MyIpController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBkAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T19:24:36.638Z",
               "EditorCaption": ""
@@ -64,8 +64,7 @@
               "RelativeToolTip": "Client\\IpApiClient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T19:23:57.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T19:23:57.393Z"
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T19:23:09.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T19:23:09.673Z"
             }
           ]
         }

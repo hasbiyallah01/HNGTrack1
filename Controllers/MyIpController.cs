@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 namespace MYIP.Controllers
 {
     [ApiController]
-    [Route("api/myip")]
+    [Route("api")]
     public class MyIpController : ControllerBase
     {
         private readonly IpApiClient _ipApiClient;
